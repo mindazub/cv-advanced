@@ -1,0 +1,95 @@
+body {
+    background-image: url("hipsquare.png");
+}
+
+.cv-all {
+    border-style: groove;
+    /*color: #cc4455;*/
+    /*color: darkgray;*/
+    /*background-color: gainsboro;*/
+    display: flex;
+    flex-direction: row;
+    width: 960px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main-border-color {
+
+}
+
+h1, h2 {
+    font-family: 'Oswald', sans-serif;
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+
+}
+#lighter {
+    color: grey;
+}
+
+.header {
+    display: grid;
+    grid-template-columns:50% 50%;
+}
+.right-info {
+    margin-top: 15px;
+    margin-left: 255px;
+    height: 200px;
+}
+.left-info {
+    margin-top: 15px;
+    margin-left: 25px;
+    /*background-color: lightpink;*/
+}
+
+.right-info img {
+    -webkit-border-radius: 95px;
+    -moz-border-radius: 95px;
+    border-radius: 95px;
+    margin-right: 25px;
+}
+
+.dotted-message {
+    padding: 15px;
+    border-style: dashed;
+    margin-top: 35px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+table {
+    width: 100%;
+    margin-right: 25px;
+}
+tr td{
+    border-bottom:1pt solid grey;
+    font-size: 22px;
+}
+.mokslai {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.kalbos {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 22px;
+}
+.pomegiai {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    font-size: 22px;
+}
+
+li {
+    list-style-type: square;
+}
