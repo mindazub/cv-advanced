@@ -1,8 +1,16 @@
 body {
-    background-image: url("hipsquare.png");
+    background-image: url("hip-square.png");
+    /*background: darkgrey;*/
+    /*background-color: lightpink;*/
+}
+
+html {
+    background-image: url("hip-square.png");
+    /*background: darkgrey;*/
 }
 
 .cv-all {
+    background: ghostwhite;
     border-style: groove;
     /*color: #cc4455;*/
     /*color: darkgray;*/
@@ -13,11 +21,10 @@ body {
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
 }
 
-#main-border-color {
 
-}
 
 h1, h2 {
     font-family: 'Oswald', sans-serif;
@@ -77,6 +84,7 @@ tr td{
 .mokslai {
     margin-left: 25px;
     margin-right: 25px;
+    font-size: 22px;
 }
 .kalbos {
     margin-left: 25px;
