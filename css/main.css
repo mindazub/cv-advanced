@@ -1,20 +1,16 @@
 body {
-    background-image: url("hip-square.png");
-    /*background: darkgrey;*/
-    /*background-color: lightpink;*/
+    background-image: url("../hipsquare.png");
 }
 
 html {
-    background-image: url("hip-square.png");
-    /*background: darkgrey;*/
+    background-image: url("../hipsquare.png");
+
 }
 
 .cv-all {
-    background: ghostwhite;
+    background: mintcream;
     border-style: groove;
-    /*color: #cc4455;*/
-    /*color: darkgray;*/
-    /*background-color: gainsboro;*/
+
     display: flex;
     flex-direction: row;
     width: 960px;
